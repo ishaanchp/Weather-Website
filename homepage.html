@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Our Weather Website</title>
+    <style>
+      body {
+        background-color: #f1f1f1;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #444444;
+      }
+      .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #2196f3;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        transition: background-color 0.3s ease-in-out;
+      }
+      .btn:hover {
+        background-color: #0c7cd5;
+      }
+      .login {
+        background-color: #4caf50;
+      }
+      .signup {
+        background-color: #f44336;
+      }
+      .btn span {
+        display: inline-block;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Our Weather Website</h1>
+      <a href="login.php" class="btn login">
+        <span>Already a user? Login</span>
+      </a>
+      <a href="signup.php" class="btn signup">
+        <span>Sign up?</span>
+      </a>
+    </div>
+  </body>
+</html>
